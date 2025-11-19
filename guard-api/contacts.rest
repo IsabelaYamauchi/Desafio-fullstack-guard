@@ -1,0 +1,33 @@
+
+@baseUrl=http://localhost:3000
+
+###List contacts
+GET {{baseUrl}}/contacts
+
+###get contacts
+GET {{baseUrl}}/contacts/3
+?limit=10
+&offset=0
+
+###create contacts
+POST {{baseUrl}}/contacts/
+Content-Type: application/json
+
+{
+  "name": "Isabela",
+  "email": "isaisa@gmail.com",
+  "phone": "+5511965474987"
+}
+
+###update contacts
+PATCH  {{baseUrl}}/contacts/2
+Content-Type: application/json
+
+{
+  "email": "isaisa@gmail.com"
+}
+
+###delete contacts
+DELETE {{baseUrl}}/contacts/2
+
+
