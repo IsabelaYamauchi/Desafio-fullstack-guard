@@ -2,7 +2,7 @@
 
 ## 📌 Descrição do Projeto
 Este projeto consiste no desenvolvimento de uma aplicação **Fullstack** para gerenciamento de contatos, permitindo que usuários cadastrem, visualizem, editem e removam contatos.  
-As informações sensíveis — **e-mail** e **telefone** — são **criptografadas** no banco de dados para garantir segurança.
+As informações sensíveis, **e-mail** e **telefone**, são **criptografadas** no banco de dados para garantir segurança.
 
 O frontend foi desenvolvido em **React/Next.js** e o backend em **NestJS**, ambos utilizando **TypeScript**.  
 O projeto também contempla responsividade e integração completa entre frontend e backend.
@@ -13,23 +13,18 @@ O projeto também contempla responsividade e integração completa entre fronten
 - Cadastro de contatos (Nome, E-mail, Telefone)  
 - Criptografia de e-mail e telefone no banco de dados  
 - Listagem de contatos  
-- Visualização detalhada (dados descriptografados)  
-- Edição de contatos  
-- Exclusão de contatos  
+- Visualização detalhada (dados descriptografados)   
 - Layout responsivo  
-- Integração total via API REST
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
 
 ### **Frontend (guard-front)**
-- **React.js / Next.js**
+- **React.js
 - **TypeScript**
 - **TailwindCSS**
 - **Fetch API**
-- **Component Libraries** (HeroUI, ShadCN, etc.)
-- **React Testing Library / Jest**
 
 ### **Backend (guard-api)**
 - **NestJS**
@@ -38,7 +33,6 @@ O projeto também contempla responsividade e integração completa entre fronten
 - **class-validator**
 - **Criptografia de e-mail e telefone**
 - **PostgreSQL**
-- **Jest**
 
 ---
 
@@ -79,8 +73,7 @@ O projeto também contempla responsividade e integração completa entre fronten
 ### **Frontend**
 - Página de criação de contato  
 - Página de listagem  
-- Página de visualização com dados descriptografados  
-- Página de edição  
+- Página de visualização com dados descriptografados    
 - Comunicação com o backend usando Fetch API  
 - Responsividade aplicada
 
